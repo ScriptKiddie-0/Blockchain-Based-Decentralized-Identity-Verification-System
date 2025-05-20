@@ -1,14 +1,3 @@
-# GitHub DID
-
-[![Build Status](https://travis-ci.org/decentralized-identity/github-did.svg?branch=master)](https://travis-ci.org/decentralized-identity/github-did) [![codecov](https://codecov.io/gh/decentralized-identity/github-did/branch/master/graph/badge.svg)](https://codecov.io/gh/decentralized-identity/github-did) [![Docs](https://assets.readthedocs.org/static/projects/badges/passing-flat.svg)](https://docs.github-did.com) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/decentralized-identity/github-did/blob/master/LICENSE) [![GitHub forks](https://img.shields.io/github/forks/decentralized-identity/github-did.svg?style=social&label=Fork&maxAge=2592000?style=flat-square)](https://github.com/decentralized-identity/github-did#fork-destination-box) [![GitHub stars](https://img.shields.io/github/stars/decentralized-identity/github-did.svg?style=social&label=Star&maxAge=2592000?style=flat-square)](https://github.com/decentralized-identity/github-did/stargazers)
-
-
-
-
-
-[![GitHub DID](./Logo.png)](https://github-did.com)
-
-> Decentralized Identifiers (DIDs) are a new type of identifier for verifiable, "self-sovereign" digital identity. DIDs are fully under the control of the DID subject, independent from any centralized registry, identity provider, or certificate authority. DIDs are URLs that relate a DID subject to means for trustable interactions with that subject. DIDs resolve to DID Documents — simple documents that describe how to use that specific DID. Each DID Document contains at least three things: cryptographic material, authentication suites, and service endpoints. Cryptographic material combined with authentication suites provide a set of mechanisms to authenticate as the DID subject (e.g., public keys, pseudonymous biometric protocols, etc.). Service endpoints enable trusted interactions with the DID subject.
 
 ### Install CLI
 
