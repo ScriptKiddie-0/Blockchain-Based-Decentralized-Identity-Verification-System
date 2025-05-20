@@ -1,0 +1,49 @@
+{
+  "name": "@github-did/cli",
+  "version": "0.0.5",
+  "description": "GitHub DID",
+  "author": "Orie Steele",
+  "license": "Apache-2.0",
+  "bin": {
+    "ghdid": "./src/index.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "npm run ghdid",
+    "ghdid": "node ./src/index.js",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentralized-identity/github-did.git"
+  },
+  "bugs": {
+    "url": "https://github.com/decentralized-identity/github-did/issues"
+  },
+  "homepage": "https://github.com/decentralized-identity/github-did#readme",
+  "dependencies": {
+    "@github-did/lib": "^0.0.5",
+    "@transmute/openpgpsignature2019": "^0.1.1",
+    "fs-extra": "^7.0.1",
+    "node-fetch": "^2.3.0",
+    "openpgp": "^4.4.3",
+    "shelljs": "^0.8.3",
+    "uuid": "^3.3.2",
+    "vorpal": "^1.12.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "setupFiles": [
+      "./setupJest.js"
+    ],
+    "collectCoverageFrom": [
+      "src/index.js"
+    ],
+    "testPathIgnorePatterns": [
+      "__fixtures__"
+    ]
+  }
+}

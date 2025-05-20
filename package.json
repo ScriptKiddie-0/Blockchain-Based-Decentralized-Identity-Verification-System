@@ -1,0 +1,22 @@
+{
+  "name": "github-did",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "deploy": "firebase deploy",
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint",
+    "test": "lerna run test",
+    "codecov": "codecov"
+  },
+  "devDependencies": {
+    "codecov": "^3.1.0",
+    "husky": "^1.3.1",
+    "lerna": "^3.14.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "echo 'linting is currenty off'"
+    }
+  }
+}

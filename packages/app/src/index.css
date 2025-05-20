@@ -1,0 +1,26 @@
+html,
+body,
+#root,
+.App,
+.DefaultPage {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+pre{
+  color: white;
+}
